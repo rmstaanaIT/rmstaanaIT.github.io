@@ -8,8 +8,10 @@
 */
 body {
   font-family: 'Lato', arial, sans-serif;
-  color: #434343;
-  background: #DAE3E7;
+  /*color: #434343;*/
+  color: #553E4E;
+ /* background: #DAE3E7;*/
+ background: #FCF7F8;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -118,8 +120,9 @@ a.dotted-link:hover {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #f5f5f5;
-  border-top: 10px solid #778492;
+  /*background: #f5f5f5;*/
+  background: #E1CDB5;
+  border-bottom: 10px solid #8F857D;
 }
 
 .header .btn {
@@ -184,8 +187,14 @@ a.dotted-link:hover {
 }
 
 .section .section-inner {
-  background: #fff;
+  background: #F2E5D7;
   padding: 30px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.section .section-inner:hover {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .section .heading {
